@@ -1,0 +1,26 @@
+<!DOCTYPE htmcontainerl>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+   <div class="container">
+        <div class="app">
+            <h2>Todolist App <img src="imgs/notes.png" alt=""></h2>
+            <div class="row">
+                <input id="task-input" type="text" placeholder="Tasks to be Done..." />
+                <button type="button" id="add-btn">Add</button>
+            </div>
+            <div id="tasks">
+                <p id="pending-tasks">You have <span class="count-value">0</span> task(s) to complete</p>
+            </div>
+        </div>
+        <p id="error"></p>
+   </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
